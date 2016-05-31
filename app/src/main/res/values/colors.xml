@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="up_half_background_color">#ff17bf18</color>
+    <color name="down_half_background_color">@android:color/white</color>
+    <color name="marker_color">@android:color/white</color>
+    <color name="time_text_color">@android:color/white</color>
+    <color name="sec_clock_circle_color">@android:color/white</color>
+    <color name="sec_clock_inner_color">@android:color/white</color>
+    <color name="light_gray">#ffeaeaea</color>
+    <color name="dark_gray">#ffd3d3d3</color>
+    <color name="triangle_indicator_color">@android:color/white</color>
+    <color name="lap_circle_color">@android:color/white</color>
+</resources>

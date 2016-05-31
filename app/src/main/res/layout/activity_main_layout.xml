@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.guoguoquan.www.guoguoquan.view.RevealLayout
+        android:id="@+id/rl_reveallayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.amap.api.maps2d.MapView
+                android:id="@+id/map"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:id="@+id/iv_map2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="bottom|center"
+                android:layout_marginBottom="20dp"
+                android:src="@mipmap/run" />
+        </FrameLayout>
+
+    </com.guoguoquan.www.guoguoquan.view.RevealLayout>
+
+
+    <com.guoguoquan.www.guoguoquan.view.RevealLayout
+        android:id="@+id/rl_reveallayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#808080"
+            android:clickable="true">
+
+
+            <TextView
+                android:id="@+id/tv_start_or_end"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="40dp"
+                android:background="@mipmap/bg_tv_start"
+                android:gravity="center"
+                android:text="START"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_distance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/tv_start_or_end"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="40dp"
+                android:text="0.0 km"
+                android:textColor="#ffffff"
+                android:textSize="40sp" />
+
+            <ImageView
+                android:id="@+id/iv_map1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:src="@mipmap/iv_map"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="40dp"
+                />
+
+            <com.guoguoquan.www.guoguoquan.view.StopwatchView
+                android:id="@+id/stopwatch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </RelativeLayout>
+    </com.guoguoquan.www.guoguoquan.view.RevealLayout>
+
+
+</FrameLayout>
